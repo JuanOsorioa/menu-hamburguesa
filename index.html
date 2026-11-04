@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,21 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Menú Hamburguesa</title>
 </head>
+
 <body>
     <header>
-        
+        <nav class="navbar bg-body-tertiary">
+            <form class="container-fluid justify-content-center">
+                <select class="form-select me-2" aria-label="Default select example">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+                <select class="form-select me-2 ms-auto" aria-label="Default select example" type="button">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </form>
+        </nav>
     </header>
     <main>
 
@@ -20,4 +33,5 @@
     </footer>
     <script src="./scripts/app.js"></script>
 </body>
+
 </html>
